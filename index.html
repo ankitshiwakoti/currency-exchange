@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Exchange App</h1>
+        <div class="exchange-form">
+            <input type="number" id="amount" placeholder="Amount" />
+            <select id="from-currency">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <select id="to-currency">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <button id="convert-button">Convert</button>
+        </div>
+        <div class="result">
+            <h2>Converted Amount:</h2>
+            <p id="converted-amount">0</p>
+            <h3>Exchange Rate:</h3>
+            <p id="exchange-rate">1 <span id="from-currency-symbol"></span> = <span id="to-currency-symbol"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
