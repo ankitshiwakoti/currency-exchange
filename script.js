@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const accessKey = '0919f7ac3a614c4b927a37f7106568a5';
-    const apiURL = `http://data.fixer.io/api/latest?access_key=${accessKey}`;
+    const apiURL = `https://data.fixer.io/api/latest?access_key=${accessKey}`;
 
     const fromCurrencySelect = document.getElementById('from-currency');
     const toCurrencySelect = document.getElementById('to-currency');
